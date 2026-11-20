@@ -1,0 +1,18 @@
+# Allowlist: everything is ignored except the code, the trained weights and
+# the documentation. Patient images, outputs, papers, notebooks and the venv
+# cannot be committed by accident. To publish a new file, add a "!" line here.
+
+/*
+!/.gitignore
+!/README.md
+!/LICENSE
+!/requirements.txt
+!/*.py
+!/src/
+!/weights/
+
+# inside the allowed folders
+/weights/*
+!/weights/cbam_mnv3.keras
+__pycache__/
+*.pyc
