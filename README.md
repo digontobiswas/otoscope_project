@@ -188,7 +188,7 @@ python make_seg_figure.py                      # after run_seg_batch.py and the 
 
 ## Data
 
-The model was trained on a public otoscopic eardrum dataset (280 images, six
+The model was trained on a public otoscopic eardrum dataset (282 images, six
 classes), available on
 [Kaggle](https://www.kaggle.com/datasets/ucimachinelearning/otoscopic-image-dataset)
 and [figshare](https://figshare.com/articles/dataset/eardrum_zip/13648166).
